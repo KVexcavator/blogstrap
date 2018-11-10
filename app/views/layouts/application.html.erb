@@ -10,8 +10,24 @@
   </head>
 
   <body>
-    <%= link_to "Все статьи", posts_path %>
-    <%= link_to "Новая статья", new_post_path %>
-    <%= yield %>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="<%= posts_path %>">Статьи</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Статистика</a>
+          </li>           
+        </ul>
+        <%= link_to "Новая статья", new_post_path, class: 'btn btn-secondary float-right' %> 
+      </nav>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
