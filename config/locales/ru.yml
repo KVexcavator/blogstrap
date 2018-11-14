@@ -3,6 +3,8 @@ ru:
     errors: "При заполении формы возникли ошибки"
     back: "Назад" 
   posts:
+    index:
+      title: "Статьи:"
     new:
       title: "Новая статья"
     edit:
