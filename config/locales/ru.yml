@@ -2,6 +2,8 @@ ru:
   common:
     errors: "При заполении формы возникли ошибки"
     back: "Назад" 
+    edit: "Изменить"
+    delete: "Удалить"
   posts:
     index:
       title: "Статьи:"
