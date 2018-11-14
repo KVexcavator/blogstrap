@@ -1,4 +1,12 @@
 ru:
+  common:
+    errors: "При заполении формы возникли ошибки"
+    back: "Назад" 
   posts:
     new:
       title: "Новая статья"
+    edit:
+      title: "Редактирование статьи"
+    form:
+      submit:
+        "%{action} статью"
