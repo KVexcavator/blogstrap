@@ -67,3 +67,7 @@ gem 'jquery-rails'
 gem 'popper_js', '~> 1.14.3'
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+#images
+gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
