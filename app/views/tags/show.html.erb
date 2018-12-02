@@ -1,0 +1,7 @@
+<h1><%= @tag.name %></h1>
+
+<% if @tag.posts.empty? %>
+  <h1>Статей нет</h1>
+<% else %>
+  <%= render @tag.posts %>
+<% end %>
