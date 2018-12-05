@@ -76,3 +76,6 @@ gem 'carrierwave-i18n'
 #text editor
 gem 'trix-rails', require: 'trix'
 
+#paginations
+gem 'will_paginate', '~> 3.1.0'
+
