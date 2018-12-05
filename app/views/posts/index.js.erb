@@ -1,3 +1,4 @@
+$('#posts').append("<%= j render(partial: 'delimiter') %>");
 $('#posts').append("<%= j render(@posts) %>");
 
 <% if @posts.next_page  %>
