@@ -4,6 +4,11 @@ ru:
     back: "Назад" 
     edit: "Изменить"
     delete: "Удалить"
+  tag:
+    not_articles: "Статей нет"
+  will_paginate:
+    previous_label: "&larr; Назад"
+    next_label: "Вперёд &rarr;"
   posts:
     index:
       title: "Статьи:"
